@@ -58,7 +58,7 @@ clone_rbenv() {
 }
 
 if [ -z "$PHPENV_ROOT" ]; then
-    PHPENV_ROOT="$HOME/.phpenv"
+    PHPENV_ROOT='$HOME/.phpenv'
 fi
 
 if [ -z "$CHECKOUT" ]; then
